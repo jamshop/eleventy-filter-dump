@@ -1,0 +1,11 @@
+{
+  "name": "11ty-dump-filter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "MadeByMike",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-html": "0.0.7",
+  }
+}
