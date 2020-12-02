@@ -1,4 +1,4 @@
-# 11ty Dump Filter
+# Eleventy Filter - Dump
 
 A useful debug filter for 11ty that can dump almost anything. 
 
