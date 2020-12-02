@@ -1,11 +1,9 @@
 {
-  "name": "11ty-dump-filter",
+  "name": "@jamshop/eleventy-filter-dump",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "author": "MadeByMike",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "ansi-html": "0.0.7",
+    "ansi-html": "0.0.7"
   }
 }
