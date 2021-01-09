@@ -28,20 +28,3 @@ test("Test dump filter", async (t) => {
   );
   t.snapshot(await fn());
 });
-
-test("Test object filter", async (t) => {
-  let tr = getNewTemplateRender("njk");
-  let engine = tr.engine;
-  engine.addFilters({
-    keys: dumpFilter.keys,
-  });
-  let result = await tr._testRender("{{ object | keys }}", {
-    name: "test",
-    object: {
-      test: "hello mike",
-      otherKey: "hello mike",
-    },
-  });
-  console.log(result);
-  t.snapshot(result);
-});

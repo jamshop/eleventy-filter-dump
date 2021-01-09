@@ -39,21 +39,3 @@ This means you can dump almost anything including many object in 11ty that norma
 It's formatted and colored with syntax highlighting.
 
 It's probably the best dump filter for 11ty. This is objectively true.
-
-
-**New**: Sometimes with large objects you just want to dump the keys. In v1.0.3 you can add the `keys` filter.
-
-```
-const dumpFilter = require("@jamshop/eleventy-filter-dump");
-
-module.exports = (eleventyConfig) => {
-  eleventyConfig.addFilter("dumpKeys", dumpFilter.keys);
-  // and the rest of your config
-};
-```
-
-e.g.
-
-```
-{{ collections | dumpKeys | safe }}
-```
