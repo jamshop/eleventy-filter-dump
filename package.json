@@ -1,6 +1,6 @@
 {
   "name": "@jamshop/eleventy-filter-dump",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "index.js",
   "repository": "jamshop/eleventy-filter-dump",
   "license": "MIT",
